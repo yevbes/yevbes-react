@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScssLintProjectComponent">
+    <option name="scssLintExecutable" value="/usr/lib/node_modules/sass-lint/bin/sass-lint.js" />
+    <option name="pluginEnabled" value="true" />
+  </component>
+</project>

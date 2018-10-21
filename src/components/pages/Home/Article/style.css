@@ -1,0 +1,139 @@
+@media (max-width: 515px) {
+  .btn {
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 0;
+    letter-spacing: 2px;
+    font-family: "Abel";
+    text-transform: uppercase;
+  }
+
+  .btn-dark-solid {
+    background: #222;
+    color: #fff;
+  }
+
+  .btn-small {
+    padding: 10px 12px !important;
+    font-size: 10px !important;
+    font-weight: bold;
+  }
+}
+div.container-post {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+div.container-post div.post-area .blog-classic {
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #efefef;
+}
+div.container-post div.post-area .blog-classic div.left-side {
+  display: block;
+  float: left;
+}
+div.container-post div.post-area .blog-classic div.left-side .date {
+  width: 100px;
+  height: 100px;
+  padding-top: 15px;
+  background: #222222;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 40px;
+}
+div.container-post div.post-area .blog-classic div.left-side .date span {
+  font-size: 12px;
+  display: block;
+}
+div.container-post div.post-area .blog-classic div.left-side .type {
+  width: 100px;
+  height: 100px;
+  padding-top: 15px;
+  margin-top: 15px;
+  background: #eceaea;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 40px;
+}
+div.container-post div.post-area .blog-classic div.left-side .type img {
+  max-width: 60px;
+  max-height: 60px;
+  margin: 0 auto;
+  margin-top: 2px;
+}
+div.container-post div.post-area .blog-classic .blog-post {
+  padding: 0px 15px 0px 15px;
+  overflow: hidden;
+}
+div.container-post div.post-area .blog-classic .blog-post div.img-post img {
+  width: auto;
+  max-height: 400px;
+}
+div.container-post div.post-area .blog-classic .blog-post .img-post {
+  margin-bottom: 50px;
+}
+div.container-post div.post-area .blog-post h4 a {
+  color: #222;
+  text-decoration: none;
+}
+div.container-post div.post-area .blog-post h4 {
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+div.container-post div.post-area .post-meta {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 40px;
+}
+div.container-post div.post-area .post-meta li {
+  display: inline-block;
+  margin-right: 10px;
+  color: #a7a7a7;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+div.container-post div.post-area .post-meta li a {
+  margin-right: 5px;
+  color: #a7a7a7;
+}
+div.container-post div.post-area .post-meta li i {
+  padding-right: 10px;
+}
+div.container-post div.post-area .blog-post blockquote {
+  padding: 0;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: none;
+  font-style: italic;
+}
+div.container-post div.post-area p {
+  font-family: "Source Sans Pro", sans-serif;
+  display: block;
+  margin: 0 0 30px;
+  line-height: 30px;
+  color: #7e7e7e;
+}
+div.container-post div.post-area .btn:hover {
+  color: #9CDAF1;
+  border-color: #9CDAF1;
+}
+div.container-post div.post-area .btn {
+  margin-right: 20px;
+  display: inline-block;
+  border-radius: 0;
+  letter-spacing: 2px;
+  font-family: "Abel";
+  text-transform: uppercase;
+}
+div.container-post div.post-area .btn-dark-solid {
+  background: #222;
+  color: #fff;
+}
+div.container-post div.post-area .btn-small {
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

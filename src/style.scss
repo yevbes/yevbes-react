@@ -1,0 +1,51 @@
+@import "./css/constants";
+
+header {
+  margin-bottom: 40px;
+  nav {
+    background-color: white;
+    border-bottom: 1px solid #CECECE;
+
+    a.brand {
+      float: left;
+      color: black;
+      font-family: $font-stack;
+      font-weight: lighter;
+      text-transform: uppercase;
+    }
+    .navbar-toggler {
+      border-color: rgb(0, 0, 0);
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    ul {
+      li {
+        padding: 5px 20px 5px 20px;
+
+        a {
+          padding: 5px 20px 5px 20px;
+          color: black;
+          text-decoration: none;
+          font-family: $font-stack;
+          font-weight: lighter;
+          font-size: calc(.3125vw + .75rem);
+          text-transform: uppercase;
+        }
+
+        a:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  padding-top: 10px;
+  margin-top: 40px;
+  border-top: 1px solid #CECECE;
+}
+
