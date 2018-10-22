@@ -44,7 +44,7 @@ class Web extends React.Component {
 
                         <nav className="navbar navbar-expand-lg badge-light">
                             <div className="container">
-                                <a className="navbar-brand brand" href="#">YevBes</a>
+                                <Link className="navbar-brand brand" to="/"><span>YevBes</span></Link>
 
                                 <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                                         data-target="#navbar"
