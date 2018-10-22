@@ -77,6 +77,9 @@ div.container-post div.post-area .blog-post h4 a {
   color: #222;
   text-decoration: none;
 }
+div.container-post div.post-area .blog-post h4 a:hover {
+  color: #209cff;
+}
 div.container-post div.post-area .blog-post h4 {
   letter-spacing: 3px;
   margin-bottom: 10px;
@@ -84,7 +87,7 @@ div.container-post div.post-area .blog-post h4 {
 div.container-post div.post-area .post-meta {
   padding: 0;
   list-style: none;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 div.container-post div.post-area .post-meta li {
   display: inline-block;
@@ -96,6 +99,9 @@ div.container-post div.post-area .post-meta li {
 div.container-post div.post-area .post-meta li a {
   margin-right: 5px;
   color: #a7a7a7;
+}
+div.container-post div.post-area .post-meta li a:hover {
+  color: #209cff;
 }
 div.container-post div.post-area .post-meta li i {
   padding-right: 10px;
@@ -115,8 +121,8 @@ div.container-post div.post-area p {
   color: #7e7e7e;
 }
 div.container-post div.post-area .btn:hover {
-  color: #9CDAF1;
-  border-color: #9CDAF1;
+  color: #209cff;
+  border-color: #209cff;
 }
 div.container-post div.post-area .btn {
   margin-right: 20px;

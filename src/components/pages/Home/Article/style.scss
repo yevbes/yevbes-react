@@ -82,6 +82,11 @@ div.container-post {
       color: #222;
       text-decoration: none;
     }
+
+    .blog-post h4 a:hover {
+      color: $primary-color-link;
+    }
+
     .blog-post h4 {
       letter-spacing: 3px;
       margin-bottom: 10px;
@@ -90,7 +95,7 @@ div.container-post {
     .post-meta {
       padding: 0;
       list-style: none;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
     .post-meta li {
       display: inline-block;
@@ -103,6 +108,11 @@ div.container-post {
       margin-right: 5px;
       color: #a7a7a7;
     }
+
+    .post-meta li a:hover {
+      color: $primary-color-link;
+    }
+
     .post-meta li i {
       padding-right: 10px;
     }
@@ -123,8 +133,8 @@ div.container-post {
 
     .btn:hover {
       //@include transition($transition-links);
-      color: #9CDAF1;
-      border-color: #9CDAF1;
+      color: $primary-color-link;
+      border-color: $primary-color-link;;
     }
     .btn {
       margin-right: 20px;

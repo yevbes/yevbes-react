@@ -12,6 +12,10 @@ header nav a.brand {
   font-weight: lighter;
   text-transform: uppercase;
 }
+header nav a.brand:hover {
+  color: #209cff !important;
+  text-decoration: none;
+}
 header nav .navbar-toggler {
   border-color: black;
 }
@@ -31,6 +35,7 @@ header nav ul li a {
   text-transform: uppercase;
 }
 header nav ul li a:hover {
+  color: #209cff !important;
   text-decoration: none;
 }
 

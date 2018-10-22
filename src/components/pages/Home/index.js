@@ -11,6 +11,7 @@ class Home extends React.Component {
                 <div className="row">
                     <section className="col-md-9">
                         <Article/>
+                        <Article/>
                     </section>
 
                     <aside className="col-md-3">
