@@ -25,6 +25,9 @@ header nav .navbar-toggler-icon {
 header nav ul li {
   padding: 5px 20px 5px 20px;
 }
+header nav ul li a.is-active {
+  color: #209cff;
+}
 header nav ul li a {
   padding: 5px 20px 5px 20px;
   color: black;

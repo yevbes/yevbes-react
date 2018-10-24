@@ -13,6 +13,7 @@
     "popper.js": "^1.14.4",
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
+    "react-document-title": "^2.0.3",
     "react-dom": "^16.5.2",
     "react-navigation": "^2.18.0",
     "react-router-dom": "^4.3.1",

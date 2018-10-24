@@ -5,11 +5,14 @@ import Footer from './components/general/Footer';
 import Home from './components/pages/Home';
 import "./style.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Route, Link, NavLink} from "react-router-dom";
 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {faSearch} from '@fortawesome/free-solid-svg-icons'
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
+import Projects from "./components/pages/Projects";
 
 library.add(faSearch);
 
@@ -18,20 +21,16 @@ const HomePage = () => (
 );
 
 const AboutPage = () => (
-    <div>
-        <h2>About</h2>
-    </div>
+    <About/>
 );
 
 const ProjectsPage = () => (
-    <div>
-        <h2>Projects</h2>
-    </div>
+    <Projects/>
 );
 
 const ContactPage = () => (
     <div>
-        <h2>Contact</h2>
+        <Contact />
     </div>
 );
 
@@ -41,10 +40,9 @@ class Web extends React.Component {
             <Router>
                 <div>
                     <header>
-
                         <nav className="navbar navbar-expand-lg badge-light">
                             <div className="container">
-                                <Link className="navbar-brand brand" to="/"><span>YevBes</span></Link>
+                                <NavLink className="navbar-brand brand" to="/"><span>YevBes</span></NavLink>
 
                                 <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                                         data-target="#navbar"
@@ -55,16 +53,20 @@ class Web extends React.Component {
                                 <div className="collapse navbar-collapse" id="navbar">
                                     <ul className="navbar-nav ml-auto">
                                         <li className="nav-item">
-                                            <Link className="nav-link" to="/"><span>Home</span></Link>
+                                            <NavLink exact={true} className="nav-link" activeClassName='is-active'
+                                                     to="/"><span>Home</span></NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link" to="/about"><span>About Me</span></Link>
+                                            <NavLink className="nav-link" activeClassName='is-active'
+                                                     to="/about"><span>About Me</span></NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link" to="/projects"><span>Projects</span></Link>
+                                            <NavLink className="nav-link" activeClassName='is-active'
+                                                     to="/projects"><span>Projects</span></NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link" to="/contact"><span>Contact</span></Link>
+                                            <NavLink className="nav-link" activeClassName='is-active'
+                                                     to="/contact"><span>Contact</span></NavLink>
                                         </li>
                                         <li className="nav-item"><a className="nav-link" href="#"><FontAwesomeIcon
                                             icon="search"/></a>
@@ -84,7 +86,6 @@ class Web extends React.Component {
                     </footer>
                 </div>
             </Router>
-
         );
     }
 }
