@@ -134,8 +134,9 @@ div.container-post {
     .btn:hover {
       //@include transition($transition-links);
       color: $primary-color-link;
-      border-color: $primary-color-link;;
+      border-color: $primary-color-link;
     }
+
     .btn {
       margin-right: 20px;
       display: inline-block;
@@ -144,14 +145,10 @@ div.container-post {
       font-family: 'Abel';
       text-transform: uppercase;
     }
+
     .btn-dark-solid {
       background: #222;
       color: #fff;
-    }
-    .btn-small {
-      padding: 10px 20px;
-      font-size: 12px;
-      font-weight: bold;
     }
   }
 }

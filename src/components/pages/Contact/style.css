@@ -1,0 +1,33 @@
+.btn:hover {
+  color: #209cff;
+  border-color: #209cff;
+  background-color: #222 !important;
+}
+
+.btn {
+  margin-right: 20px;
+  display: inline-block;
+  width: 100%;
+  border-radius: 0;
+  letter-spacing: 2px;
+  font-family: "Abel";
+  text-transform: uppercase;
+  border-color: unset;
+}
+
+.btn-dark-solid {
+  background: #222;
+  color: #fff;
+}
+
+.btn-small {
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.social-icons-design {
+  text-align: left;
+}
+
+/*# sourceMappingURL=style.css.map */
