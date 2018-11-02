@@ -1,3 +1,28 @@
 $font-stack: 'Alegreya', serif;
 $font-post: 'Source Sans Pro', sans-serif;
 $primary-color-link: #209cff;
+$transition-links: 0.3s;
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.defaultcursor {
+  cursor: default;
+}
+
+.nodisplay {
+  display: none;
+  visibility: hidden;
+}
+
+@mixin transition($value) {
+  -o-transition: $value;
+  -moz-transition: $value;
+  -webkit-transition: $value;
+  transition: $value;
+}

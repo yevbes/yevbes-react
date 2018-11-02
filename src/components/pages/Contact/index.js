@@ -2,6 +2,11 @@ import React from 'react';
 import Recaptcha from 'react-recaptcha';
 import DocumentTitle from 'react-document-title';
 import './style.css'
+import $ from 'jquery';
+
+$('#buttonSend').on('click', function () {
+    $()
+});
 
 class Contact extends React.Component {
     constructor(props) {
@@ -39,29 +44,47 @@ class Contact extends React.Component {
                     <div className="row">
                         <div className="col-md-8">
                             <form action="/post" method="post">
-                                <input className="form-control" name="name" placeholder="Name..." required/><br/>
-                                <input className="form-control" name="subject" placeholder="Subject..." required/><br/>
-                                <input className="form-control" name="phone" placeholder="Phone..."/><br/>
-                                <input className="form-control" name="email" placeholder="E-mail..." required/><br/>
-                                <textarea className="form-control" name="text" placeholder="How can we help you?" required/><br/>
+                                <div className="form-group">
+                                    <input className="form-control" name="name" placeholder="Name..." required/>
+                                </div>
+                                <div className="form-group">
+                                    <input className="form-control" name="subject" placeholder="Subject..." required/>
+                                </div>
+
+                                <div className="form-group">
+
+                                    <input className="form-control" name="phone" placeholder="Phone..."/>
+                                </div>
+
+                                <div className="form-group">
+                                    <input className="form-control" name="email" placeholder="E-mail..." required/>
+                                </div>
+
+                                <div className="form-group">
+                                            <textarea className="form-control" name="text"
+                                                      placeholder="How can I help you?"
+                                                      required/>
+                                </div>
+
+
                                 <div className="row">
-                                    <div className="col-md-12">
-                                        <Recaptcha
-                                            sitekey="6Lc40QsUAAAAAOLLuPG-4s3aCfx_MftI05QGrLYt"
-                                        /><br/>
+                                    <div className="col-md-6">
+                                        <div className="form-group">
+                                            <Recaptcha
+                                                sitekey="6Lc40QsUAAAAAOLLuPG-4s3aCfx_MftI05QGrLYt"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="form-group">
+                                            <input id="buttonSend"
+                                                   className="btn btn-primary btn-dark-solid btn-small"
+                                                   type="submit" value="Send"/>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div className="row">
-                                    <div className="col-md-6"><input
-                                        className="btn btn-primary btn-dark-solid btn-small" type="submit"
-                                        value="Send"/><br/><br/>
-                                    </div>
-                                    <div className="col-md-6"><input
-                                        className="btn btn-primary btn-dark-solid btn-small" type="reset"
-                                        value="Reset"/><br/><br/>
-                                    </div>
-                                </div>
+
                             </form>
                         </div>
 
